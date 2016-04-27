@@ -1,0 +1,51 @@
+#title {
+	font-size: 80px;
+	margin-right: 10px;
+	margin-top: 120px;
+}
+body {
+	text-align: center;
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	font-family: "Arial", Sans-serif;
+}
+
+#loading {
+	font-size: 50px;
+	width: 400px;
+	height: 150px;
+	background-color: white;
+	position: absolute;
+	margin-top: 20%;
+    margin-left: 35%;
+    border:1px solid black;
+    display:none;
+}
+
+#text {
+	margin: auto;
+}
+
+input {
+	margin-top: 125px;
+}
+#top-container {
+	height: 100%;
+ 	width: 100%;
+	position: absolute;
+	text-align: center;
+}
+#background {
+ 	width:100%;
+ 	height: 100%;
+ 	margin-top: -80px;
+ 	object-fit: cover;
+ }
+#background-container { 
+    overflow: hidden;
+    max-width:100%;
+ 	height: auto;
+ 	border: -10px;
+} 

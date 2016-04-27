@@ -1,0 +1,104 @@
+body {
+	text-align: center;
+	font-family: "Arial", Sans-serif;
+}
+
+#container {
+	position: relative;
+}
+#title-container {
+	font-size: 100px;
+	margin-bottom: 25px;
+}
+
+.carousel-container {
+	width: 675px;
+	height: 100px;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+}
+
+#carousel {
+	width: 1200px;
+	height: 100px;
+	padding-left: 37px;
+	margin-left: 0px;
+	-webkit-transition: all 0.3s;
+}
+
+.carousel-item {
+	width: 200px;
+	position: relative;
+	height: 100%;
+	float: left;
+	font-size: 13px;
+}
+
+.carousel-item img {
+	width: 52px;
+	height: 52px;
+}
+
+/* Styling for the carousel previous button */
+#carousel-prev {
+    position: absolute;
+    top: 10%;
+    margin-top: -30px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+}
+
+/* Styling for the carousel next button */
+#carousel-next {
+    position: absolute;
+    right: 0px;
+    top: 10%;
+    margin-top: -30px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+}
+
+#row-container div{
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+   	display:inline-block;
+   	position: relative;
+}
+#row-container img {
+	width: 250px;
+	height: 250px;
+	padding: 0;
+	display: block;
+}
+
+#row-container {
+	width: 1250px;
+	height: 265px;
+}
+
+a {
+	font-size: 30px;
+	text-decoration: none;
+	color: orange;
+}
+
+
+.image .text {
+	height: 35px;
+	text-align: center;
+}
+.text {
+	font-size: 35px;
+	display:none;
+	position: absolute;
+	vertical-align: middle;
+	text-align: center;
+	margin: auto;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    color: #FFFFFF;
+}
